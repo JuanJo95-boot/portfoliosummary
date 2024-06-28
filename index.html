@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jjyu</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="./main.js"></script>
+</head>
+<body class="darkTheme">
+    ☀️
+    🌑
+    <i class='iconShowMenu bx bx-menu'></i>
+   <nav class="navbar">
+    <span><a href="#home">JJYU</a></span>
+    <ul class="navbar__menu">
+        <li><a class="link link--active" href="#home">Beginning</a></li>
+        <li><a class="link" href="#about">About me</a></li>
+        <li><a class="link" href="#portfolio">Portfolio</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
+        <li class="iconTheme">☀️</li>
+    </ul>
+   </nav> 
+   <main class="container__principal">
+    <section id="home" class="hidden">
+        <h1 class="home__title">Hello my name is <span>Juan Yidi</span> and I am <span>frontend developer</span></h1>
+       </section>
+       <section id="about" class="hidden">
+        <h2>About me</h2>
+    
+        <p>I am a Front End developer graduated from Academlo, I have experience in using JavaScript, HTML, CSS, Typescript, 
+            frameworks such as React among others.
+        </p>
+    
+        <p>I have developed several web applications, such as an application that provides weather information based on location, a pokemon application, 
+            and one for an animated series called Rick and Morthy, 
+            among others.</p>
+            <div class="about__img">
+                <img src="./assets/icons/images/yidy fot perfil.jpg" alt="este soy yo">
+            </div>
+       </section>
+       <section id="portfolio" class="hidden">
+        <h2>Portfolio</h2>
+        <div class="portfolios ">
+            <div class="portfolio ">
+                <img src="./assets/icons/images/Porta1.jpg" alt="Porta1">
+            </div>
+            <div class="portfolio ">
+                <img src="./assets/icons/images/Porta2.jpg" alt="Porta2">
+            </div>
+            <div class="portfolio ">
+                <img src="./assets/icons/images/Porta3.jpg" alt="Porta3">
+            </div>
+        </div>
+       </section>
+       <section id="contact" class="hidden">
+        <h2>Contactact me</h2>
+
+        <form class="form">
+            <input type="text" placeholder="Name" name="nameUser" id="nameUser" required>
+            <input type="email" placeholder="Email address" name="emailUser" id="emailUser" required>
+            <textarea name="comentUser" id="comentUser" cols="30" placeholder="Write me ..."></textarea>
+
+            <button class="btn">Send</button>
+        </form>
+       </section>
+   </main>
+   
+</body>
+</html>
